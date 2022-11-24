@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production/Greg_ZCD_Test__morning_28th_.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>65536</length>
+      <used>1368</used>
+      <free>64168</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>3710</length>
+      <used>69</used>
+      <free>3641</free>
+    </memory>
+  </executable>
+</project>

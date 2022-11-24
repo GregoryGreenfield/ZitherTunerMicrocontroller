@@ -1,0 +1,906 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/xcof8YIUg.obj
+idloc IDLOC 0 200000 200000 10 1
+init CODE 0 AC AC 4 1
+reset_vec CODE 0 0 0 6 1
+config CONFIG 0 300000 300000 C 1
+$dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+cinit CODE 0 846 846 3A 1
+text0 CODE 0 B0 B0 4A6 1
+text1 CODE 0 938 938 24 1
+text2 CODE 0 556 556 F4 1
+text3 CODE 0 708 708 AE 1
+text4 CODE 0 7B6 7B6 90 1
+text5 CODE 0 8E4 8E4 2A 1
+text6 CODE 0 90E 90E 2A 1
+text7 CODE 0 A22 A22 6 1
+text8 CODE 0 A28 A28 6 1
+text9 CODE 0 A2E A2E 6 1
+nvCOMRAM COMRAM 1 34 34 2 1
+text10 CODE 0 A34 A34 6 1
+text11 CODE 0 95C 95C 24 1
+text12 CODE 0 9C2 9C2 1E 1
+text13 CODE 0 A12 A12 10 1
+text14 CODE 0 980 980 22 1
+text15 CODE 0 A3E A3E 4 1
+text16 CODE 0 880 880 38 1
+text17 CODE 0 A42 A42 4 1
+text18 CODE 0 9FC 9FC 16 1
+text19 CODE 0 64A 64A BE 1
+text20 CODE 0 9A2 9A2 20 1
+text21 CODE 0 A46 A46 4 1
+text22 CODE 0 8B8 8B8 2C 1
+text24 CODE 0 A4A A4A 4 1
+text25 CODE 0 9E0 9E0 1C 1
+idataCOMRAM CODE 0 A3A A3A 4 1
+cstackCOMRAM COMRAM 1 1 1 27 1
+cstackBANK0 BANK0 1 60 60 1E 1
+temp COMRAM 1 36 36 1 1
+intcode CODE 0 8 8 A4 1
+dataCOMRAM COMRAM 1 30 30 4 1
+bssCOMRAM COMRAM 1 28 28 8 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 7E-E7D 1
+SFR E7E-FFF 1
+BANK0 7E-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 6-7 1
+CONST A4E-FFFF 1
+STACK 7E-E7D 1
+SMALLCONST F00-FFFF 1
+CODE 6-7 1
+CODE A4E-FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-E7D 1
+BIGRAM 37-5F 1
+BIGRAM 7E-E7D 1
+COMRAM 37-5F 1
+EEDATA 310000-3103FF 1
+MEDIUMCONST F00-FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+8 intcode CODE >52:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+8 intcode CODE >96:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+42 intcode CODE >55:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+52 intcode CODE >57:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+54 intcode CODE >58:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+5C intcode CODE >59:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+68 intcode CODE >60:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+6C intcode CODE >61:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+70 intcode CODE >67:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+9E0 text25 CODE >35:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+9E0 text25 CODE >37:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+9E4 text25 CODE >39:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+9E6 text25 CODE >40:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+9EA text25 CODE >41:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+9EE text25 CODE >42:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+9F0 text25 CODE >43:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+9F2 text25 CODE >46:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+9F6 text25 CODE >47:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+A4A text24 CODE >18:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+A4A text24 CODE >20:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+A4C text24 CODE >21:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+8B8 text22 CODE >80:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+8B8 text22 CODE >82:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+8C0 text22 CODE >85:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+8C4 text22 CODE >87:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+8D0 text22 CODE >88:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+8D4 text22 CODE >89:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+8D8 text22 CODE >90:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+8DA text22 CODE >93:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+8DE text22 CODE >94:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+A46 text21 CODE >69:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A46 text21 CODE >72:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A48 text21 CODE >73:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+9A2 text20 CODE >119:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9A2 text20 CODE >122:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9A8 text20 CODE >124:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9AE text20 CODE >126:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9B4 text20 CODE >128:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9BA text20 CODE >130:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9C0 text20 CODE >133:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+64A text19 CODE >51:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+64A text19 CODE >56:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+64E text19 CODE >57:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+652 text19 CODE >58:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+656 text19 CODE >59:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+65A text19 CODE >60:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+65E text19 CODE >65:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+662 text19 CODE >66:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+664 text19 CODE >67:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+666 text19 CODE >68:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+66A text19 CODE >69:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+66C text19 CODE >74:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+672 text19 CODE >75:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+676 text19 CODE >76:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+67A text19 CODE >77:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+680 text19 CODE >78:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+684 text19 CODE >83:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+68A text19 CODE >84:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+690 text19 CODE >85:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+696 text19 CODE >86:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+69C text19 CODE >87:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6A2 text19 CODE >92:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6A8 text19 CODE >93:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6AE text19 CODE >94:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6B4 text19 CODE >95:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6BA text19 CODE >96:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6C0 text19 CODE >103:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6C8 text19 CODE >104:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6CA text19 CODE >105:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6D0 text19 CODE >106:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6D6 text19 CODE >107:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6DA text19 CODE >109:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6E0 text19 CODE >110:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6EC text19 CODE >112:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6F2 text19 CODE >113:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6F8 text19 CODE >114:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+6FC text19 CODE >116:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+706 text19 CODE >117:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+9FC text18 CODE >63:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+9FC text18 CODE >68:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+A00 text18 CODE >71:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+A04 text18 CODE >74:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+A08 text18 CODE >77:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+A10 text18 CODE >78:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+A42 text17 CODE >18:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+A42 text17 CODE >20:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+A44 text17 CODE >21:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+880 text16 CODE >5:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+880 text16 CODE >7:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+884 text16 CODE >8:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+888 text16 CODE >9:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+88C text16 CODE >10:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+890 text16 CODE >11:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+894 text16 CODE >12:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+898 text16 CODE >13:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+8AE text16 CODE >14:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+8B2 text16 CODE >15:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+8B6 text16 CODE >16:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+A3E text15 CODE >104:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+A3E text15 CODE >107:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+A40 text15 CODE >108:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+980 text14 CODE >63:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+980 text14 CODE >68:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+984 text14 CODE >71:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+988 text14 CODE >74:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+98C text14 CODE >77:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+990 text14 CODE >80:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+994 text14 CODE >83:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+998 text14 CODE >86:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+99C text14 CODE >89:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+9A0 text14 CODE >90:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+A12 text13 CODE >4:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/zcd.c
+A12 text13 CODE >6:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/zcd.c
+A18 text13 CODE >7:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/zcd.c
+A1C text13 CODE >8:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/zcd.c
+A20 text13 CODE >9:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/zcd.c
+9C2 text12 CODE >107:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9C2 text12 CODE >110:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9C6 text12 CODE >111:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9CA text12 CODE >112:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9CE text12 CODE >113:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9D2 text12 CODE >114:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9D6 text12 CODE >115:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9DA text12 CODE >116:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+9DE text12 CODE >117:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+95C text11 CODE >7:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+95E text11 CODE >9:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+964 text11 CODE >10:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+974 text11 CODE >9:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A34 text10 CODE >14:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A34 text10 CODE >15:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A38 text10 CODE >16:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A2E text9 CODE >17:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A2E text9 CODE >18:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A32 text9 CODE >19:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A28 text8 CODE >20:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A28 text8 CODE >21:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A2C text8 CODE >22:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A22 text7 CODE >23:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A22 text7 CODE >24:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+A26 text7 CODE >25:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+90E text6 CODE >41:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+90E text6 CODE >42:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+914 text6 CODE >43:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+918 text6 CODE >44:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+91E text6 CODE >45:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+922 text6 CODE >46:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+928 text6 CODE >47:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+92C text6 CODE >48:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+932 text6 CODE >49:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+936 text6 CODE >50:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+8E4 text5 CODE >31:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+8E4 text5 CODE >32:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+8EA text5 CODE >33:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+8EE text5 CODE >34:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+8F4 text5 CODE >35:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+8F8 text5 CODE >36:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+8FE text5 CODE >37:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+902 text5 CODE >38:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+908 text5 CODE >39:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+90C text5 CODE >40:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+7B6 text4 CODE >4:/Applications/microchip/xc8/v1.41/sources/common/ftge.c
+7B6 text4 CODE >6:/Applications/microchip/xc8/v1.41/sources/common/ftge.c
+7BA text4 CODE >7:/Applications/microchip/xc8/v1.41/sources/common/ftge.c
+7E6 text4 CODE >8:/Applications/microchip/xc8/v1.41/sources/common/ftge.c
+7EA text4 CODE >9:/Applications/microchip/xc8/v1.41/sources/common/ftge.c
+816 text4 CODE >10:/Applications/microchip/xc8/v1.41/sources/common/ftge.c
+822 text4 CODE >11:/Applications/microchip/xc8/v1.41/sources/common/ftge.c
+82E text4 CODE >12:/Applications/microchip/xc8/v1.41/sources/common/ftge.c
+708 text3 CODE >62:/Applications/microchip/xc8/v1.41/sources/common/float.c
+708 text3 CODE >64:/Applications/microchip/xc8/v1.41/sources/common/float.c
+718 text3 CODE >65:/Applications/microchip/xc8/v1.41/sources/common/float.c
+726 text3 CODE >67:/Applications/microchip/xc8/v1.41/sources/common/float.c
+728 text3 CODE >68:/Applications/microchip/xc8/v1.41/sources/common/float.c
+730 text3 CODE >66:/Applications/microchip/xc8/v1.41/sources/common/float.c
+74E text3 CODE >71:/Applications/microchip/xc8/v1.41/sources/common/float.c
+750 text3 CODE >72:/Applications/microchip/xc8/v1.41/sources/common/float.c
+75C text3 CODE >73:/Applications/microchip/xc8/v1.41/sources/common/float.c
+764 text3 CODE >70:/Applications/microchip/xc8/v1.41/sources/common/float.c
+782 text3 CODE >76:/Applications/microchip/xc8/v1.41/sources/common/float.c
+784 text3 CODE >77:/Applications/microchip/xc8/v1.41/sources/common/float.c
+78C text3 CODE >75:/Applications/microchip/xc8/v1.41/sources/common/float.c
+796 text3 CODE >79:/Applications/microchip/xc8/v1.41/sources/common/float.c
+798 text3 CODE >80:/Applications/microchip/xc8/v1.41/sources/common/float.c
+79A text3 CODE >81:/Applications/microchip/xc8/v1.41/sources/common/float.c
+79E text3 CODE >82:/Applications/microchip/xc8/v1.41/sources/common/float.c
+7A2 text3 CODE >83:/Applications/microchip/xc8/v1.41/sources/common/float.c
+7A6 text3 CODE >84:/Applications/microchip/xc8/v1.41/sources/common/float.c
+7A8 text3 CODE >85:/Applications/microchip/xc8/v1.41/sources/common/float.c
+556 text2 CODE >62:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+556 text2 CODE >67:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+570 text2 CODE >68:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+57E text2 CODE >69:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+598 text2 CODE >70:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5A6 text2 CODE >71:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5AC text2 CODE >72:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5B0 text2 CODE >73:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5B4 text2 CODE >74:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5B8 text2 CODE >75:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5BA text2 CODE >77:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5BC text2 CODE >78:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5C8 text2 CODE >79:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5D4 text2 CODE >134:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5D8 text2 CODE >136:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5DC text2 CODE >137:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5E8 text2 CODE >138:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5F0 text2 CODE >139:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5F8 text2 CODE >140:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+5FC text2 CODE >143:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+600 text2 CODE >145:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+604 text2 CODE >146:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+610 text2 CODE >147:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+618 text2 CODE >148:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+620 text2 CODE >149:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+624 text2 CODE >156:/Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+938 text1 CODE >28:/Applications/microchip/xc8/v1.41/sources/common/lwtoft.c
+938 text1 CODE >30:/Applications/microchip/xc8/v1.41/sources/common/lwtoft.c
+B0 text0 CODE >75:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+B0 text0 CODE >76:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+B4 text0 CODE >77:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+B8 text0 CODE >78:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+BC text0 CODE >79:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+C0 text0 CODE >80:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+C4 text0 CODE >81:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+D0 text0 CODE >82:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+E2 text0 CODE >83:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+10A text0 CODE >84:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+132 text0 CODE >85:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+15A text0 CODE >86:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+182 text0 CODE >88:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+1AA text0 CODE >89:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+1D2 text0 CODE >90:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+1FA text0 CODE >91:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+222 text0 CODE >92:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+24A text0 CODE >104:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+276 text0 CODE >105:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+278 text0 CODE >106:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+27E text0 CODE >107:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+27E text0 CODE >108:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+2D6 text0 CODE >109:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+2DA text0 CODE >110:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+2DE text0 CODE >112:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+336 text0 CODE >114:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+362 text0 CODE >115:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+364 text0 CODE >116:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+36A text0 CODE >117:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+36A text0 CODE >118:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+3C2 text0 CODE >119:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+3C6 text0 CODE >120:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+3CA text0 CODE >122:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+422 text0 CODE >123:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+424 text0 CODE >124:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+42A text0 CODE >125:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+42A text0 CODE >126:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+482 text0 CODE >127:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+486 text0 CODE >128:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+48A text0 CODE >130:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+4B6 text0 CODE >131:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+4B8 text0 CODE >132:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+4BE text0 CODE >113:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+4C0 text0 CODE >136:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+518 text0 CODE >137:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+51C text0 CODE >138:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+520 text0 CODE >140:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+54C text0 CODE >141:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+54E text0 CODE >142:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+554 text0 CODE >103:/Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+846 cinit CODE >6514:/tmp/xcUwK6DGV
+846 cinit CODE >6516:/tmp/xcUwK6DGV
+846 cinit CODE >6519:/tmp/xcUwK6DGV
+846 cinit CODE >6557:/tmp/xcUwK6DGV
+848 cinit CODE >6558:/tmp/xcUwK6DGV
+84A cinit CODE >6559:/tmp/xcUwK6DGV
+84C cinit CODE >6560:/tmp/xcUwK6DGV
+84E cinit CODE >6561:/tmp/xcUwK6DGV
+850 cinit CODE >6562:/tmp/xcUwK6DGV
+852 cinit CODE >6563:/tmp/xcUwK6DGV
+856 cinit CODE >6564:/tmp/xcUwK6DGV
+85A cinit CODE >6565:/tmp/xcUwK6DGV
+85A cinit CODE >6566:/tmp/xcUwK6DGV
+85C cinit CODE >6567:/tmp/xcUwK6DGV
+860 cinit CODE >6568:/tmp/xcUwK6DGV
+862 cinit CODE >6569:/tmp/xcUwK6DGV
+864 cinit CODE >6570:/tmp/xcUwK6DGV
+866 cinit CODE >6574:/tmp/xcUwK6DGV
+86A cinit CODE >6575:/tmp/xcUwK6DGV
+86C cinit CODE >6576:/tmp/xcUwK6DGV
+86C cinit CODE >6577:/tmp/xcUwK6DGV
+86E cinit CODE >6578:/tmp/xcUwK6DGV
+870 cinit CODE >6579:/tmp/xcUwK6DGV
+872 cinit CODE >6585:/tmp/xcUwK6DGV
+872 cinit CODE >6587:/tmp/xcUwK6DGV
+874 cinit CODE >6588:/tmp/xcUwK6DGV
+876 cinit CODE >6590:/tmp/xcUwK6DGV
+878 cinit CODE >6591:/tmp/xcUwK6DGV
+87A cinit CODE >6592:/tmp/xcUwK6DGV
+87C cinit CODE >6593:/tmp/xcUwK6DGV
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_n 28 0 COMRAM 1 bssCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_y 32 0 COMRAM 1 dataCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hspace_0 30000C 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hspace_1 7E 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hspace_2 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_PWM1_Initialize A12 0 CODE 0 text18 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_Delay_tenthSec 95C 0 CODE 0 text11 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xcof8YIUg.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_INTERRUPT_Initialize A4A 0 CODE 0 text21 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T1CONbits FCF 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_RSTOSC$HFINTOSC_64MHZ 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WDTCCS$SC 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_LATA F83 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_LATB F84 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_LATC F85 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_LATD F86 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_LATE F87 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4PR FB6 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR1 FCD 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR4 FB5 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_WPUA F10 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_WPUB F18 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_WPUC F20 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_WPUD F25 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_WPUE F2D 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___sp 0 0 STACK 2 stack /tmp/xcof8YIUg.obj
+_main B0 0 CODE 0 text0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+btemp 36 0 COMRAM 1 temp dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@over_need_cnts 78 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+start AC 0 CODE 0 init /tmp/xcof8YIUg.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_DEBUG$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4INPPSbits EAC 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hpowerup AC 0 CODE 0 powerup dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_TMR4_Start A42 0 CODE 0 text15 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_TMR1_Initialize 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_TMR1_StartTimer 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_TMR1_WriteTimer 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftge@ff1 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftge@ff2 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__LnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__accesstop 60 0 ABS 0 - /tmp/xcof8YIUg.obj
+intlevel0 0 0 CODE 0 text /tmp/xcof8YIUg.obj
+intlevel1 0 0 CODE 0 text /tmp/xcof8YIUg.obj
+intlevel2 0 0 CODE 0 text /tmp/xcof8YIUg.obj
+intlevel3 0 0 CODE 0 text /tmp/xcof8YIUg.obj
+_PWM1_Initialize 9FC 0 CODE 0 text18 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_Delay_tenthSec 980 0 CODE 0 text11 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__pidataCOMRAM A3A 0 CODE 0 idataCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftmul@f1 19 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftmul@f2 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ANSELA F11 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ANSELB F19 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ANSELC F21 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ANSELD F26 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ANSELE F2E 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___inthi_sp 0 0 STACK 2 stack /tmp/xcof8YIUg.obj
+___intlo_sp 0 0 STACK 2 stack /tmp/xcof8YIUg.obj
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_CCPR1H FAB 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_CCPR1L FAA 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_INTERRUPT_InterruptManager AC 0 CODE 0 intcode dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of___ftge 846 0 CODE 0 text4 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_PWM1_LoadDutyValue 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hintcodelo AC 0 CODE 0 intcodelo dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@f_boundary 69 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of___ftmul 64A 0 CODE 0 text2 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+Delay_tenthSec@i 13 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ZCD_Initialize A12 0 CODE 0 text13 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_phase_1 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_phase_2 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_phase_3 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_phase_4 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_INTCON FF2 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@g_boundary 63 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+PIN_MANAGER_Initialize@state 11 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4HLTbits FB8 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__HnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of___lwtoft 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lintcodelo AC 0 CODE 0 intcodelo dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_PIN_MANAGER_Initialize 64A 0 CODE 0 text19 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@need_cnts 7B 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+start_initialization 846 0 CODE 0 cinit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ODCONA F0F 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ODCONB F17 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ODCONC F1F 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ODCOND F24 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ODCONE F2C 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_CCPTMRSbits FAE 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_OSCFRQ EDE 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_PWM1_Initialize 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@over_fewer 72 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WDTCPS$WDTCPS_31 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___rparam_used 1 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_RC0PPS EF7 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_SYSTEM_Initialize 9E0 0 CODE 0 text12 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4RSTbits FBA 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T1GATE FD1 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T1GCON FD0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftpack 708 0 CODE 0 text3 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_ZCD_Initialize A22 0 CODE 0 text13 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_TMR4_Initialize 9A2 0 CODE 0 text14 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftpack@arg 11 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftpack@exp 14 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of___ftpack 7B6 0 CODE 0 text3 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank8 0 0 ABS 0 bank8 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank9 0 0 ABS 0 bank9 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hconst 0 0 CONST 0 const dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hidata 0 0 CODE 0 idata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hidloc 200010 0 IDLOC 0 idloc dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hstack 0 0 STACK 2 stack dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext0 0 0 ABS 0 text0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext1 0 0 ABS 0 text1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext2 0 0 ABS 0 text2 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext3 0 0 ABS 0 text3 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext4 0 0 ABS 0 text4 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext5 0 0 ABS 0 text5 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext6 0 0 ABS 0 text6 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext7 0 0 ABS 0 text7 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext8 0 0 ABS 0 text8 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext9 0 0 ABS 0 text9 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank10 0 0 ABS 0 bank10 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank11 0 0 ABS 0 bank11 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank12 0 0 ABS 0 bank12 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank13 0 0 ABS 0 bank13 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbank14 0 0 ABS 0 bank14 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_TMR4_Start 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ZCDCON F32 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__smallconst 0 0 SMALLCONST 0 smallconst /tmp/xcof8YIUg.obj
+__Hcomram 0 0 ABS 0 comram dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hconfig 30000C 0 CONFIG 0 config dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___lwtoft 938 0 CODE 0 text1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank8 0 0 ABS 0 bank8 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank9 0 0 ABS 0 bank9 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lconst 0 0 CONST 0 const dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T1GCONbits FD0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lidata 0 0 CODE 0 idata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_phase_1 A3A 0 CODE 0 text10 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_phase_2 A34 0 CODE 0 text9 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_phase_3 A2E 0 CODE 0 text8 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_phase_4 A28 0 CODE 0 text7 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lstack 0 0 STACK 2 stack dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of___lwtoft 95C 0 CODE 0 text1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_INTERRUPT_Initialize A46 0 CODE 0 text21 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hdata 0 0 ABS 0 data dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hinit B0 0 CODE 0 init dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htemp 37 0 COMRAM 1 temp dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext 0 0 ABS 0 text dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ldata 0 0 ABS 0 data dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Linit AC 0 CODE 0 init dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltemp 36 0 COMRAM 1 temp dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext 0 0 ABS 0 text dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftge 7B6 0 CODE 0 text4 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_ofi2_TMR1_StartTimer 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WDTCWS$WDTCWS_7 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_SCANE$ON 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+int$flags 36 0 COMRAM 1 temp dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hintret 0 0 ABS 0 intret dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_GIE 7F97 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_PR4 FB6 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_S_4 90E 0 CODE 0 text6 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T_4 8E4 0 CODE 0 text5 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__S0 30000C 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__S1 7E 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__S2 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+Delay_tenthSec@ds 12 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR4_Initialize 980 0 CODE 0 text14 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__pnvCOMRAM 34 0 COMRAM 1 nvCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@greater 60 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_SYSTEM_Initialize 9C2 0 CODE 0 text12 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_S_4 938 0 CODE 0 text6 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_T_4 90E 0 CODE 0 text5 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hramtop F00 0 RAM 0 ramtop dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hrparam 0 0 COMRAM 1 rparam dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_Delay_tenthSec 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__activetblptr 2 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of___ftge 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext10 0 0 ABS 0 text10 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext11 0 0 ABS 0 text11 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext12 0 0 ABS 0 text12 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext13 0 0 ABS 0 text13 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext14 0 0 ABS 0 text14 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext15 0 0 ABS 0 text15 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext16 0 0 ABS 0 text16 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext17 0 0 ABS 0 text17 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext18 0 0 ABS 0 text18 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext19 0 0 ABS 0 text19 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext20 0 0 ABS 0 text20 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext21 0 0 ABS 0 text21 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext22 0 0 ABS 0 text22 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext24 0 0 ABS 0 text24 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Htext25 0 0 ABS 0 text25 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_timer_value 2A 0 COMRAM 1 bssCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_INTERRUPT_InterruptManager 8 0 CODE 0 intcode dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_PIE2bits EC4 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext10 A34 0 CODE 0 text10 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext11 95C 0 CODE 0 text11 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext12 9C2 0 CODE 0 text12 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext13 A12 0 CODE 0 text13 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext14 980 0 CODE 0 text14 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext15 A3E 0 CODE 0 text15 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext16 880 0 CODE 0 text16 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext17 A42 0 CODE 0 text17 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext18 9FC 0 CODE 0 text18 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext19 64A 0 CODE 0 text19 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext20 9A2 0 CODE 0 text20 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext21 A46 0 CODE 0 text21 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext22 8B8 0 CODE 0 text22 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext24 A4A 0 CODE 0 text24 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext25 9E0 0 CODE 0 text25 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_PIN_MANAGER_Initialize 708 0 CODE 0 text19 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftmul 556 0 CODE 0 text2 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank10 0 0 ABS 0 bank10 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank11 0 0 ABS 0 bank11 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank12 0 0 ABS 0 bank12 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank13 0 0 ABS 0 bank13 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbank14 0 0 ABS 0 bank14 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lcomram 0 0 ABS 0 comram dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+?___ftpack 11 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@fewer 66 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___lwtoft@c 19 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+stackhi E7D 0 ABS 0 - /tmp/xcof8YIUg.obj
+stacklo 7E 0 ABS 0 - /tmp/xcof8YIUg.obj
+__Lintcode 8 0 CODE 0 intcode dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_TMR4_Initialize 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_OSCCON1 ED8 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_OSCCON3 EDA 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_OSCTUNE EDD 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lintret 0 0 ABS 0 intret dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+?___lwtoft 19 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_ofi2_TMR1_StartTimer A4E 0 CODE 0 text24 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lspace_0 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lspace_1 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lspace_2 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftmul@cntr 26 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__pbssCOMRAM 28 0 COMRAM 1 bssCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_LPBOREN$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftmul@sign 27 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_PIR2bits ECC 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_PIR4bits ECE 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_LVP$ON 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_CSWEN$ON 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_ZCD$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+end_of_initialization 872 0 CODE 0 cinit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_PPSLOCKbits EA0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+?___ftmul 19 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hreset_vec 6 0 CODE 0 reset_vec dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@over_greater 6C 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lramtop F00 0 RAM 0 ramtop dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lrparam 0 0 COMRAM 1 rparam dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__pcinit 846 0 CODE 0 cinit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext0 B0 0 CODE 0 text0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext1 938 0 CODE 0 text1 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext2 556 0 CODE 0 text2 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext3 708 0 CODE 0 text3 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext4 7B6 0 CODE 0 text4 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext5 8E4 0 CODE 0 text5 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext6 90E 0 CODE 0 text6 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext7 A22 0 CODE 0 text7 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext8 A28 0 CODE 0 text8 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ptext9 A2E 0 CODE 0 text9 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR4_InterruptHandler 2C 0 COMRAM 1 bssCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__ramtop F00 0 RAM 0 ramtop /tmp/xcof8YIUg.obj
+__end_of_PWM1_LoadDutyValue 8E4 0 CODE 0 text22 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+PWM1_LoadDutyValue@dutyValue 11 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lpowerup AC 0 CODE 0 powerup dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+TMR1_WriteTimer@timerVal 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_TMR1_Initialize 8B8 0 CODE 0 text16 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_TMR1_StartTimer A46 0 CODE 0 text17 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_ZCD_Initialize 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_TMR1_WriteTimer 9FC 0 CODE 0 text25 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4CONbits FB7 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_phase_1 A34 0 CODE 0 text10 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_phase_2 A2E 0 CODE 0 text9 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_phase_3 A28 0 CODE 0 text8 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_phase_4 A22 0 CODE 0 text7 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___param_bank 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftmul@exp 22 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of__initialization 872 0 CODE 0 cinit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WRT2$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WRT3$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@over_f_boundary 75 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_timer1ReloadVal 34 0 COMRAM 1 nvCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftpack@sign 15 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+main@over_g_boundary 6F 0 BANK0 1 cstackBANK0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_BORV$VBOR_2P45 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_PWM1_LoadDutyValue 8B8 0 CODE 0 text22 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+i2_TMR1_StartTimer A4A 0 CODE 0 text24 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_BOREN$SBORDIS 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_main 556 0 CODE 0 text0 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__pintcode 8 0 CODE 0 intcode dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_OSCEN EDC 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T1CLK FD2 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T1CON FCF 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4CON FB7 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4HLT FB8 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4RST FBA 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4TMR FB5 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR1H FCE 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR1L FCD 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TRISA F88 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TRISB F89 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TRISC F8A 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TRISD F8B 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TRISE F8C 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__HRAM 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hbss 0 0 RAM 1 bss dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hram 0 0 ABS 0 ram dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__LRAM 1 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lbss 0 0 RAM 1 bss dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lram 0 0 ABS 0 ram dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR1_Initialize 880 0 CODE 0 text16 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR1_StartTimer A42 0 CODE 0 text17 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_delay 30 0 COMRAM 1 dataCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR1_WriteTimer 9E0 0 CODE 0 text25 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_CCP1CON FAC 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_S_4 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_T_4 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__end_of_OSCILLATOR_Initialize 9C2 0 CODE 0 text20 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_PPS1WAY$ON 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__initialization 846 0 CODE 0 cinit dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__pdataCOMRAM 30 0 COMRAM 1 dataCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_ZCDCONbits F32 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_T4CLKCON FB9 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_PPSLOCK EA0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR4_Start A3E 0 CODE 0 text15 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_CCP1CONbits FAC 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__CFG_MCLRE$EXTMCLR 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__Hintcode AC 0 CODE 0 intcode dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+__size_of_INTERRUPT_Initialize 0 0 ABS 0 - dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_TMR1_InterruptHandler 2E 0 COMRAM 1 bssCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+___ftmul@f3_as_product 23 0 COMRAM 1 cstackCOMRAM dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+_OSCILLATOR_Initialize 9A2 0 CODE 0 text20 dist/default/debug/Greg_ZCD_Test__morning_28th_.X.debug.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+idloc 0 200000 200000 10 1
+cstackCOMRAM 1 1 1 36 1
+cstackBANK0 1 60 60 1E 1
+reset_vec 0 0 0 6 1
+intcode 0 8 8 A46 1
+config 0 300000 300000 C 1

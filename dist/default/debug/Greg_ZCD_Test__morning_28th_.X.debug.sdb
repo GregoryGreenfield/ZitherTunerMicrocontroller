@@ -1,0 +1,659 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K40 ]
+[d frameptr 4065 ]
+"93 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+[e E11597 . `uc
+TMR4_ROP_STARTS_TMRON 0
+TMR4_ROP_STARTS_TMRON_ERSHIGH 1
+TMR4_ROP_STARTS_TMRON_ERSLOW 2
+TMR4_ROP_RESETS_ERSBOTHEDGE 3
+TMR4_ROP_RESETS_ERSRISINGEDGE 4
+TMR4_ROP_RESETS_ERSFALLINGEDGE 5
+TMR4_ROP_RESETS_ERSLOW 6
+TMR4_ROP_RESETS_ERSHIGH 7
+TMR4_OS_STARTS_TMRON 8
+TMR4_OS_STARTS_ERSRISINGEDGE 9
+TMR4_OS_STARTS_ERSFALLINGEDGE 10
+TMR4_OS_STARTS_ERSBOTHEDGE 11
+TMR4_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR4_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR4_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR4_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR4_OS_STARTS_TMRON_ERSHIGH 22
+TMR4_OS_STARTS_TMRON_ERSLOW 23
+TMR4_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR4_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR4_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"99
+[e E11620 . `uc
+TMR4_T4INPPS 0
+TMR4_T2POSTSCALED 1
+TMR4_RESERVED 2
+TMR4_T6POSTSCALED 3
+TMR4_CCP1_OUT 4
+TMR4_CCP2_OUT 5
+TMR4_PWM3_OUT 6
+TMR4_PWM4_OUT 7
+TMR4_C1_OUT_SYNC 8
+TMR4_C2_OUT_SYNC 9
+TMR4_ZCD_OUTPUT 10
+]
+"62 /Applications/microchip/xc8/v1.41/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /Applications/microchip/xc8/v1.41/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 /Applications/microchip/xc8/v1.41/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 /Applications/microchip/xc8/v1.41/sources/common/ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 /Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 /Applications/microchip/xc8/v1.41/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"28 /Applications/microchip/xc8/v1.41/sources/common/lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"10 /Applications/microchip/xc8/v1.41/sources/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 /Applications/microchip/xc8/v1.41/sources/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 /Applications/microchip/xc8/v1.41/sources/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /Applications/microchip/xc8/v1.41/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"16 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+[v _Delay_tenthSec Delay_tenthSec `(v  1 e 1 0 ]
+"25
+[v _phase_1 phase_1 `(v  1 e 1 0 ]
+"28
+[v _phase_2 phase_2 `(v  1 e 1 0 ]
+"31
+[v _phase_3 phase_3 `(v  1 e 1 0 ]
+"34
+[v _phase_4 phase_4 `(v  1 e 1 0 ]
+"68
+[v _T_4 T_4 `(v  1 e 1 0 ]
+"78
+[v _S_4 S_4 `(v  1 e 1 0 ]
+"91
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"111
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"117
+[v _main main `(v  1 e 1 0 ]
+"107 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"119
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"51 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"63 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+"80
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+"63 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"95
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+[v i2_TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"116
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"63 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+"104
+[v _TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+"115
+[v _TMR4_Stop TMR4_Stop `(v  1 e 1 0 ]
+"126
+[v _TMR4_Counter8BitGet TMR4_Counter8BitGet `(uc  1 e 1 0 ]
+"140
+[v _TMR4_Counter8BitSet TMR4_Counter8BitSet `(v  1 e 1 0 ]
+"151
+[v _TMR4_Period8BitSet TMR4_Period8BitSet `(v  1 e 1 0 ]
+"57 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/zcd.c
+[v _ZCD_Initialize ZCD_Initialize `(v  1 e 1 0 ]
+"2014 /Applications/microchip/xc8/v1.41/include/pic18f46k40.h
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3744 ]
+[s S83 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"2024
+[u S85 . 1 `S83 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES85  1 e 1 @3744 ]
+[s S91 . 1 `uc 1 T4INPPS 1 0 :5:0 
+]
+"2611
+[s S93 . 1 `uc 1 T4INPPS0 1 0 :1:0 
+`uc 1 T4INPPS1 1 0 :1:1 
+`uc 1 T4INPPS2 1 0 :1:2 
+`uc 1 T4INPPS3 1 0 :1:3 
+`uc 1 T4INPPS4 1 0 :1:4 
+]
+[u S99 . 1 `S91 1 . 1 0 `S93 1 . 1 0 ]
+[v _T4INPPSbits T4INPPSbits `VES99  1 e 1 @3756 ]
+[s S660 . 1 `uc 1 C1IE 1 0 :1:0 
+`uc 1 C2IE 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 ZCDIE 1 0 :1:6 
+`uc 1 HLVDIE 1 0 :1:7 
+]
+"3775
+[s S666 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S669 . 1 `S660 1 . 1 0 `S666 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES669  1 e 1 @3780 ]
+[s S638 . 1 `uc 1 C1IF 1 0 :1:0 
+`uc 1 C2IF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 ZCDIF 1 0 :1:6 
+`uc 1 HLVDIF 1 0 :1:7 
+]
+"4173
+[s S644 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S647 . 1 `S638 1 . 1 0 `S644 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES647  1 e 1 @3788 ]
+[s S228 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"4294
+[u S235 . 1 `S228 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES235  1 e 1 @3790 ]
+"5002
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
+"5140
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3802 ]
+"5290
+[v _OSCEN OSCEN `VEuc  1 e 1 @3804 ]
+"5340
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3805 ]
+"5397
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3806 ]
+"6480
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @3831 ]
+"7602
+[v _ODCONA ODCONA `VEuc  1 e 1 @3855 ]
+"7663
+[v _WPUA WPUA `VEuc  1 e 1 @3856 ]
+"7724
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+"8090
+[v _ODCONB ODCONB `VEuc  1 e 1 @3863 ]
+"8151
+[v _WPUB WPUB `VEuc  1 e 1 @3864 ]
+"8212
+[v _ANSELB ANSELB `VEuc  1 e 1 @3865 ]
+"8578
+[v _ODCONC ODCONC `VEuc  1 e 1 @3871 ]
+"8639
+[v _WPUC WPUC `VEuc  1 e 1 @3872 ]
+"8700
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"8883
+[v _ODCOND ODCOND `VEuc  1 e 1 @3876 ]
+"8944
+[v _WPUD WPUD `VEuc  1 e 1 @3877 ]
+"9005
+[v _ANSELD ANSELD `VEuc  1 e 1 @3878 ]
+"9194
+[v _ODCONE ODCONE `VEuc  1 e 1 @3884 ]
+"9225
+[v _WPUE WPUE `VEuc  1 e 1 @3885 ]
+"9262
+[v _ANSELE ANSELE `VEuc  1 e 1 @3886 ]
+"9531
+[v _ZCDCON ZCDCON `VEuc  1 e 1 @3890 ]
+[s S682 . 1 `uc 1 INTN 1 0 :1:0 
+`uc 1 INTP 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 SEN 1 0 :1:7 
+]
+"9556
+[s S690 . 1 `uc 1 ZCDINTN 1 0 :1:0 
+`uc 1 ZCDINTP 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 ZCDPOL 1 0 :1:4 
+`uc 1 ZCDOUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 ZCDSEN 1 0 :1:7 
+]
+[u S698 . 1 `S682 1 . 1 0 `S690 1 . 1 0 ]
+[v _ZCDCONbits ZCDCONbits `VES698  1 e 1 @3890 ]
+"15633
+[v _LATA LATA `VEuc  1 e 1 @3971 ]
+"15744
+[v _LATB LATB `VEuc  1 e 1 @3972 ]
+"15855
+[v _LATC LATC `VEuc  1 e 1 @3973 ]
+"15966
+[v _LATD LATD `VEuc  1 e 1 @3974 ]
+"16077
+[v _LATE LATE `VEuc  1 e 1 @3975 ]
+"16173
+[v _TRISA TRISA `VEuc  1 e 1 @3976 ]
+"16294
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+"16415
+[v _TRISC TRISC `VEuc  1 e 1 @3978 ]
+"16536
+[v _TRISD TRISD `VEuc  1 e 1 @3979 ]
+"16657
+[v _TRISE TRISE `VEuc  1 e 1 @3980 ]
+"19992
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4010 ]
+"20011
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @4011 ]
+"20030
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4012 ]
+[s S151 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 FMT 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"20067
+[s S157 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+[s S162 . 1 `uc 1 CCP1MODE 1 0 :4:0 
+`uc 1 CCP1FMT 1 0 :1:4 
+`uc 1 CCP1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP1EN 1 0 :1:7 
+]
+[s S168 . 1 `uc 1 CCP1MODE0 1 0 :1:0 
+`uc 1 CCP1MODE1 1 0 :1:1 
+`uc 1 CCP1MODE2 1 0 :1:2 
+`uc 1 CCP1MODE3 1 0 :1:3 
+]
+[s S173 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S176 . 1 `S151 1 . 1 0 `S157 1 . 1 0 `S162 1 . 1 0 `S168 1 . 1 0 `S173 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES176  1 e 1 @4012 ]
+[s S119 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 P3TSEL 1 0 :2:4 
+`uc 1 P4TSEL 1 0 :2:6 
+]
+"20234
+[s S124 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 P3TSEL0 1 0 :1:4 
+`uc 1 P3TSEL1 1 0 :1:5 
+`uc 1 P4TSEL0 1 0 :1:6 
+`uc 1 P4TSEL1 1 0 :1:7 
+]
+[u S133 . 1 `S119 1 . 1 0 `S124 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES133  1 e 1 @4014 ]
+"20880
+[v _T4TMR T4TMR `VEuc  1 e 1 @4021 ]
+"20885
+[v _TMR4 TMR4 `VEuc  1 e 1 @4021 ]
+"20917
+[v _T4PR T4PR `VEuc  1 e 1 @4022 ]
+"20922
+[v _PR4 PR4 `VEuc  1 e 1 @4022 ]
+"20954
+[v _T4CON T4CON `VEuc  1 e 1 @4023 ]
+[s S539 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"20990
+[s S543 . 1 `uc 1 T4OUTPS 1 0 :4:0 
+`uc 1 T4CKPS 1 0 :3:4 
+`uc 1 T4ON 1 0 :1:7 
+]
+[s S547 . 1 `uc 1 T4OUTPS0 1 0 :1:0 
+`uc 1 T4OUTPS1 1 0 :1:1 
+`uc 1 T4OUTPS2 1 0 :1:2 
+`uc 1 T4OUTPS3 1 0 :1:3 
+`uc 1 T4CKPS0 1 0 :1:4 
+`uc 1 T4CKPS1 1 0 :1:5 
+`uc 1 T4CKPS2 1 0 :1:6 
+]
+[s S555 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR4ON 1 0 :1:7 
+]
+[u S564 . 1 `S539 1 . 1 0 `S543 1 . 1 0 `S547 1 . 1 0 `S555 1 . 1 0 ]
+[v _T4CONbits T4CONbits `VES564  1 e 1 @4023 ]
+"21099
+[v _T4HLT T4HLT `VEuc  1 e 1 @4024 ]
+[s S443 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"21132
+[s S448 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S454 . 1 `uc 1 T4MODE 1 0 :5:0 
+`uc 1 T4CKSYNC 1 0 :1:5 
+`uc 1 T4CKPOL 1 0 :1:6 
+`uc 1 T4PSYNC 1 0 :1:7 
+]
+[s S459 . 1 `uc 1 T4MODE0 1 0 :1:0 
+`uc 1 T4MODE1 1 0 :1:1 
+`uc 1 T4MODE2 1 0 :1:2 
+`uc 1 T4MODE3 1 0 :1:3 
+`uc 1 T4MODE4 1 0 :1:4 
+]
+[u S465 . 1 `S443 1 . 1 0 `S448 1 . 1 0 `S454 1 . 1 0 `S459 1 . 1 0 ]
+[v _T4HLTbits T4HLTbits `VES465  1 e 1 @4024 ]
+"21231
+[v _T4CLKCON T4CLKCON `VEuc  1 e 1 @4025 ]
+"21383
+[v _T4RST T4RST `VEuc  1 e 1 @4026 ]
+[s S505 . 1 `uc 1 RSEL 1 0 :5:0 
+]
+"21408
+[s S507 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+]
+[s S512 . 1 `uc 1 T4RSEL 1 0 :5:0 
+]
+[s S514 . 1 `uc 1 T4RSEL0 1 0 :1:0 
+`uc 1 T4RSEL1 1 0 :1:1 
+`uc 1 T4RSEL2 1 0 :1:2 
+`uc 1 T4RSEL3 1 0 :1:3 
+]
+[u S519 . 1 `S505 1 . 1 0 `S507 1 . 1 0 `S512 1 . 1 0 `S514 1 . 1 0 ]
+[v _T4RSTbits T4RSTbits `VES519  1 e 1 @4026 ]
+"23884
+[v _TMR1 TMR1 `VEus  1 e 2 @4045 ]
+"23890
+[v _TMR1L TMR1L `VEuc  1 e 1 @4045 ]
+"24059
+[v _TMR1H TMR1H `VEuc  1 e 1 @4046 ]
+"24178
+[v _T1CON T1CON `VEuc  1 e 1 @4047 ]
+[s S249 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_SYNC 1 0 :1:2 
+]
+"24217
+[s S252 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+[s S258 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+[s S261 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S268 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S272 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S275 . 1 `S249 1 . 1 0 `S252 1 . 1 0 `S258 1 . 1 0 `S261 1 . 1 0 `S268 1 . 1 0 `S272 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES275  1 e 1 @4047 ]
+"24291
+[v _T1GCON T1GCON `VEuc  1 e 1 @4048 ]
+[s S309 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 GGO_NOT_DONE 1 0 :1:3 
+]
+"24333
+[s S312 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GVAL 1 0 :1:2 
+`uc 1 GGO_nDONE 1 0 :1:3 
+`uc 1 GSPM 1 0 :1:4 
+`uc 1 GTM 1 0 :1:5 
+`uc 1 GPOL 1 0 :1:6 
+`uc 1 GE 1 0 :1:7 
+]
+[s S320 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO_NOT_DONE 1 0 :1:3 
+]
+[s S323 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 T1GE 1 0 :1:7 
+]
+[s S331 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[u S334 . 1 `S309 1 . 1 0 `S312 1 . 1 0 `S320 1 . 1 0 `S323 1 . 1 0 `S331 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES334  1 e 1 @4048 ]
+"24522
+[v _T1GATE T1GATE `VEuc  1 e 1 @4049 ]
+"24663
+[v _T1CLK T1CLK `VEuc  1 e 1 @4050 ]
+"26056
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+[s S744 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"26082
+[s S752 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S756 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S760 . 1 `S744 1 . 1 0 `S752 1 . 1 0 `S756 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES760  1 e 1 @4082 ]
+"27772
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"10 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+[v _timer_value timer_value `ui  1 e 2 0 ]
+"15
+[v _delay delay `i  1 e 2 0 ]
+"38
+[v _phase_number phase_number `i  1 e 2 0 ]
+"56 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
+"117 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"127
+[v main@need_cnts need_cnts `d  1 a 3 51 ]
+"130
+[v main@fewer fewer `d  1 a 3 48 ]
+"128
+[v main@greater greater `d  1 a 3 45 ]
+"131
+[v main@f_boundary f_boundary `d  1 a 3 42 ]
+"129
+[v main@g_boundary g_boundary `d  1 a 3 39 ]
+"151
+} 0
+"28 /Applications/microchip/xc8/v1.41/sources/common/lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 24 ]
+"31
+} 0
+"62 /Applications/microchip/xc8/v1.41/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 34 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 38 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 37 ]
+[v ___ftmul@exp exp `uc  1 a 1 33 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 24 ]
+[v ___ftmul@f2 f2 `f  1 p 3 27 ]
+"157
+} 0
+"62 /Applications/microchip/xc8/v1.41/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 16 ]
+[v ___ftpack@exp exp `uc  1 p 1 19 ]
+[v ___ftpack@sign sign `uc  1 p 1 20 ]
+"86
+} 0
+"4 /Applications/microchip/xc8/v1.41/sources/common/ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 27 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 30 ]
+"13
+} 0
+"68 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+[v _T_4 T_4 `(v  1 e 1 0 ]
+{
+"77
+} 0
+"78
+[v _S_4 S_4 `(v  1 e 1 0 ]
+{
+"87
+} 0
+"34
+[v _phase_4 phase_4 `(v  1 e 1 0 ]
+{
+"36
+} 0
+"31
+[v _phase_3 phase_3 `(v  1 e 1 0 ]
+{
+"33
+} 0
+"28
+[v _phase_2 phase_2 `(v  1 e 1 0 ]
+{
+"30
+} 0
+"25
+[v _phase_1 phase_1 `(v  1 e 1 0 ]
+{
+"27
+} 0
+"16
+[v _Delay_tenthSec Delay_tenthSec `(v  1 e 1 0 ]
+{
+[v Delay_tenthSec@ds ds `uc  1 a 1 wreg ]
+"17
+[v Delay_tenthSec@x x `uc  1 a 1 19 ]
+[v Delay_tenthSec@i i `uc  1 a 1 18 ]
+"16
+[v Delay_tenthSec@ds ds `uc  1 a 1 wreg ]
+"18
+[v Delay_tenthSec@ds ds `uc  1 a 1 17 ]
+"23
+} 0
+"107 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"57 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/zcd.c
+[v _ZCD_Initialize ZCD_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"63 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"104
+[v _TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+{
+"108
+} 0
+"63 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"95
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"99
+} 0
+"63 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"51 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"103
+[v PIN_MANAGER_Initialize@state state `uc  1 a 1 16 ]
+"117
+} 0
+"119 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"133
+} 0
+"111 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"80 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/pwm1.c
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM1_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 16 ]
+"96
+} 0
+"91 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/main.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"109
+} 0
+"95 /Users/GregoryLE32FH/Desktop/Greg_ZCD_Test (morning 28th).X/mcc_generated_files/tmr1.c
+[v i2_TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"99
+} 0
+"116
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `ui  1 p 2 0 ]
+"136
+} 0
