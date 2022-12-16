@@ -3,4 +3,4 @@ My third year university project was to design and create an automatic zither (s
 
 - I designed and fabricated the PCB board that hosted the microcontroller and the drive board for the stepper motor. The Zither produces a series of frequencies on top of the fundamental frequency. Only the fundamental frequency is required, so I had to filter out the unwanted overtones/harmonics and then amplify the remaining signal before it arrived at the microcontroller.
 - I designed the Zither instrument and how the tuner would attach to it
-- I programmed the PIC microcontroller that converted the frequency into the correct change in tension of the stepper motor. 
+- I programmed the PIC microcontroller, which converted the require change in frequency into the correct change in string tension by driving a stepper motor.
